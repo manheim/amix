@@ -1,8 +1,8 @@
 %{"decorators": {:git, "git://github.com/chrisavl/erlang_decorators.git", "b14949efc938157604447adc29a71913298fe67f", [branch: "master"]},
-  "edown": {:git, "git://github.com/esl/edown.git", "4d18dc4bec89c20c0ba8cab6884ce690ca606f4a", [ref: "HEAD"]},
-  "jiffy": {:git, "https://github.com/davisp/jiffy.git", "99867af6e9bfec6bb80b10524d4dc27e39150dee", [ref: "master"]},
-  "lhttpc": {:git, "git://github.com/oscarh/lhttpc.git", "5a906f6e2d6b60ae63787ce0cf532440236c0083", [ref: "master"]},
-  "newrelic": {:git, "git://github.com/wooga/newrelic-erlang.git", "fa9634f14c9f2510ea4073ecd1e2cb3a9b10dce4", []},
-  "parse_trans": {:git, "git://github.com/uwiger/parse_trans.git", "2adfbfcc17f9cd9da19134c0ecfba30052a26e25", [branch: "master"]},
-  "plug": {:git, "git://github.com/elixir-lang/plug.git", "40d0a16e469c9b17c4fb48a225f711f75fb9354c", []},
-  "statman": {:git, "git://github.com/knutin/statman.git", "d3820e209e0f164f83a3ae126045c683a666b2d2", [ref: "master"]}}
+  "edown": {:git, "git://github.com/uwiger/edown.git", "d864427506cd93a00712b7c3b9a89d793e7e1600", [branch: "master"]},
+  "jiffy": {:git, "https://github.com/davisp/jiffy.git", "330f41c486cf949707eb494b855634df324a6d92", [ref: "master"]},
+  "lhttpc": {:git, "git://github.com/ferd/lhttpc.git", "28d5562be7e53576b624a6f82deac7303ce8f2dd", [ref: "master"]},
+  "newrelic": {:git, "https://github.com/wooga/newrelic-erlang.git", "ce63c4a69561d3677f45334ba2c93876b4661229", []},
+  "parse_trans": {:git, "git://github.com/uwiger/parse_trans.git", "4fadce8a5242479b4ebc0d2b5825bdfe1de0af1c", [branch: "master"]},
+  "plug": {:hex, :plug, "1.1.4"},
+  "statman": {:git, "git://github.com/knutin/statman.git", "e6ff10815eac1e613b619e69db06d635f1a4a488", [ref: "master"]}}

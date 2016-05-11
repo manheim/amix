@@ -3,8 +3,8 @@ defmodule Amix.Mixfile do
 
   def project do
     [app: :amix,
-     version: "0.0.1",
-     elixir: "~> 0.14",
+     version: "0.0.2",
+     elixir: "~> 1.0",
      deps: deps_by_env(Mix.env)]
   end
 
@@ -18,8 +18,7 @@ defmodule Amix.Mixfile do
   # Dependencies can be hex.pm packages:
   defp deps_by_env(_) do
     [
-      {:plug, "~> 0.5.1"},
-      {:plug, github: "esl/lhttpc"},
+      {:plug, "~> 1.1.2"},
       {:newrelic, github: "wooga/newrelic-erlang"}
     ]
   end
