@@ -3,9 +3,11 @@ defmodule Amix.Mixfile do
 
   def project do
     [app: :amix,
-     version: "0.0.2",
+     version: "0.0.3",
      elixir: "~> 1.0",
-     deps: deps_by_env(Mix.env)]
+     deps: deps_by_env(Mix.env)],
+     package: package,
+     description: description
   end
 
   # Configuration for the OTP application
@@ -22,4 +24,19 @@ defmodule Amix.Mixfile do
       {:newrelic, github: "wooga/newrelic-erlang"}
     ]
   end
-end   
+
+  defp package do
+    [
+      name: :plug_newrelic,
+      files: ["lib", "mix.exs", "README*", "LICENSE*"],
+      licenses: ["MIT"]
+    ]
+  end
+
+  defp description do
+    """
+      Wraps New Relic transaction tracing into a plug.
+    """
+  end
+end
+
