@@ -1,9 +1,9 @@
-defmodule Amix.Mixfile do
+defmodule PlugNewrelic.Mixfile do
   use Mix.Project
 
   def project do
-    [app: :amix,
-     version: "0.0.3",
+    [app: :plug_newrelic,
+     version: "0.0.4",
      elixir: "~> 1.0",
      deps: deps_by_env(Mix.env),
      package: package,
@@ -14,7 +14,7 @@ defmodule Amix.Mixfile do
   # Configuration for the OTP application
   def application do
     [applications: [:newrelic],
-     mod: {Amix, []}
+     mod: {PlugNewrelic, []}
    ]
   end
 
