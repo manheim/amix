@@ -5,7 +5,7 @@ defmodule PlugNewrelic.Mixfile do
     [app: :plug_newrelic,
      version: "0.0.4",
      elixir: "~> 1.0",
-     deps: deps_by_env(Mix.env),
+     deps: dependencies,
      package: package,
      description: description
    ]
@@ -19,7 +19,7 @@ defmodule PlugNewrelic.Mixfile do
   end
 
   # Dependencies can be hex.pm packages:
-  defp deps_by_env(_) do
+  defp dependencies do 
     [
       {:plug, "~> 1.1.2"},
       {:newrelic, github: "wooga/newrelic-erlang"}
