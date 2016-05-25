@@ -16,7 +16,7 @@ Enable reporting to Newrelic through statman for Plug based web servers
     def application do
       [
         ...
-        applications: [ ... , :amix, ...]
+        applications: [ ... , :plug_newrelic, ...]
         ...
       ]
     end
@@ -25,7 +25,7 @@ Enable reporting to Newrelic through statman for Plug based web servers
     ```elixir
     def deps do
       [
-      {:amix, github: "arielze/amix"}
+      {:plug_newrelic, "~> 0.0.5"}
       ]
     end
     ```
@@ -38,7 +38,7 @@ Enable reporting to Newrelic through statman for Plug based web servers
       use Application
       use Plug.Router
 
-      plug Amix.Wrapper, [] 
+      plug PlugNewRelic.Wrapper, [] 
       plug :match
       plug :dispatch
   ```
