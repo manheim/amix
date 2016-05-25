@@ -1,5 +1,9 @@
-Amix
+Plug New Relic
 ====
+
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](https://raw.githubusercontent.com/manheim/amix/master/LICENSE.md)
+[![GitHub issues](https://img.shields.io/github/issues/manheim/amix.svg?style=flat-square)](https://github.com/manheim/amix/issues)
+[![Hex.pm](https://img.shields.io/hexpm/v/plug_newrelic.svg?maxAge=2592000?style=flat-square)](https://hex.pm/packages/plug_newrelic)
 
 Enable reporting to Newrelic through statman for Plug based web servers
 
