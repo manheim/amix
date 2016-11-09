@@ -3,7 +3,7 @@ defmodule PlugNewrelic.Mixfile do
 
   def project do
     [app: :plug_newrelic,
-     version: "0.0.5",
+     version: "0.0.6",
      elixir: "~> 1.0",
      deps: deps,
      package: package,
@@ -21,7 +21,7 @@ defmodule PlugNewrelic.Mixfile do
   # Dependencies can be hex.pm packages:
   defp deps do 
     [
-      {:plug, "~> 1.1.2"},
+      {:plug, "~> 1.2.2"},
       {:newrelic, "~> 0.1.0"}
     ]
   end
