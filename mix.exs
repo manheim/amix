@@ -30,6 +30,7 @@ defmodule PlugNewrelic.Mixfile do
     [
       name: :plug_newrelic,
       licenses: ["MIT"],
+      maintainers: ["Manheim"],
       links: %{"Github" => "https://github.com/manheim/amix"}
     ]
   end
