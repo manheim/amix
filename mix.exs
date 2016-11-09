@@ -22,7 +22,8 @@ defmodule PlugNewrelic.Mixfile do
   defp deps do 
     [
       {:plug, "~> 1.2.2"},
-      {:newrelic, "~> 0.1.0"}
+      {:newrelic, "~> 0.1.0"},
+      {:ex_doc, ">= 0.0.0", only: :dev}
     ]
   end
 
