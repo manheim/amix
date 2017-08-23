@@ -3,7 +3,7 @@ defmodule PlugNewrelic.Mixfile do
 
   def project do
     [app: :plug_newrelic,
-     version: "0.0.7",
+     version: "0.0.8",
      elixir: "~> 1.0",
      deps: deps(),
      package: package(),
